@@ -8,49 +8,14 @@
 
 Ethereum Grid is a desktop application that allows you to securely download, configure and use various clients and tools in the Ethereum ecosystem. You can download the application from the GitHub [releases](https://github.com/ethereum/grid/releases) or from the [landing page](https://grid.ethereum.org/).
 
-## Development
-
-This repo is the hosting application for [Grid UI](https://github.com/ethereum/grid-ui).
-
 ### Quick Start
 
-Install and run Grid UI:
-
 ```
-git clone https://github.com/ethereum/grid-ui.git
-cd grid-ui
-yarn && yarn start
-```
-
-Install and run Grid:
-
-```
-git clone https://github.com/ethereum/grid.git
+git clone https://github.com/PhilippLgh/grid.git
 cd grid
-yarn && yarn start:dev
+yarn
+yarn start
 ```
-
-### Dev Mode
-
-`yarn start:dev`
-
-The developer mode will try to load grid UI from a locally running web server on port `3080`.
-
-#### Debugging
-
-Enable debug logging to console with `DEBUG=geth-js yarn start:dev`.
-
-More namespaces will be added over time and listed here. We would appreciate contributions in adding more throughout our modules.
-
-### Production Mode
-
-`yarn start:prod`
-
-In production mode, a bundled app can be loaded from either `fs` or a remote location such as Grid UI's GitHub releases.
-
-### Release Process
-
-See the developer guide [here](/RELEASE.md).
 
 ### Landing page development guide
 
